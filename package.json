@@ -1,0 +1,32 @@
+{
+  "name": "discussion-board",
+  "version": "1.0.0",
+  "description": "A single page discussion board utilizing socket io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccb2k18/discussion-board.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccb2k18/discussion-board/issues"
+  },
+  "homepage": "https://github.com/ccb2k18/discussion-board#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "mongoose": "^6.0.12",
+    "socket.io": "^4.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
